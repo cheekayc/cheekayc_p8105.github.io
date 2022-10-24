@@ -1,0 +1,19 @@
+---
+title: "P8105 - Creating website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: lumen
+---
+
+# This is my first website (for practice purposes)
+
+### How to insert links?
+
+Using Columbia University CourseWorks as an example, this is how we insert a link: 
+I submitted all my homework on [CourseWorks](https://courseworks2.columbia.edu/).
+
+If we want to insert an image on the website, we need to create a folder under the same R project folder and store the picture that we want to post in that newly created folder.                            
+In this practice, I created a folder named `Images` and put the gif picture of Yier and Bubu into this folder. Then I can insert that gif picture on my website as the following:                             
+![](Images/YierBubu_koujio.gif)

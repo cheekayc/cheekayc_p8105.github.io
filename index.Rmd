@@ -61,7 +61,16 @@ Step 3: Go to the `_site.yml` file and change the input for icon. Save the file.
 Done. Now let's knit to see if the envelope icon has become a keyboard icon. It works!
 
 
+### Picking themes for the website
 
+The [Bootswatch](https://bootswatch.com/3/) website gives a preview of how the default themes which R recognized (meaning these are the themes that can be used if we are building a website using RStudio).
+We can pick a theme that we like and change our website's theme on the `_site.yml` file. In this practice, I picked *Sandstone*.
+
+
+##### Extra questions
+
+What if we want to have a drop down menu like the one on the P8105 website?                                                                                                                           
+> Check out the [P8105 github](https://github.com/P8105/p8105.github.io) and see how Jeff did to create his P8105 website, specifically the `_site.yml`. 
 
 
 

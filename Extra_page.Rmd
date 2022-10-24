@@ -1,0 +1,9 @@
+---
+title: "Extra Page"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+This is an extra page I created for practicing making a website.

@@ -11,7 +11,7 @@
 
 
 
-<title>P8105 - Creating website</title>
+<title>About this website</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -354,89 +354,15 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">P8105 - Creating website</h1>
+<h1 class="title toc-ignore">About this website</h1>
 
 </div>
 
 
-<div id="this-is-my-first-website-for-practice-purposes"
-class="section level1">
-<h1>This is my first website (for practice purposes)</h1>
-<div id="how-to-insert-links" class="section level3">
-<h3>How to insert links?</h3>
-<p>Using Columbia University CourseWorks as an example, this is how we
-insert a link: I submitted all my homework on <a
-href="https://courseworks2.columbia.edu/">CourseWorks</a>.</p>
-<p>If we want to insert an image on the website, we need to create a
-folder under the same R project folder and store the picture that we
-want to post in that newly created folder.<br />
-In this practice, I created a folder named <code>Images</code> and put
-the gif picture of Yier and Bubu into this folder. Then I can insert
-that gif picture on my website as the following:<br />
-<img src="Images/YierBubu_koujio.gif" /></p>
-<p>We can still do regular RMarkdown stuff that we have been doing in
-the past few weeks.</p>
-<pre class="r"><code>library(tidyverse)
-
-x = rnorm(1000)
-mean(x)</code></pre>
-<pre><code>## [1] 0.02513105</code></pre>
-</div>
-<div id="control-settings-for-the-entire-website"
-class="section level3">
-<h3>Control settings for the entire website</h3>
-<p>It’s better to have one set of rules that apply site-wide. To do
-this, we’ll create a single file with all the YAML stuff we need, and at
-the same time remove extraneous YAML header content from individual Rmd
-files. Meaning we can then remove the
-<code>theme: whatever theme we choose</code> from the header because we
-no longer need to specify that in the header.</p>
-<p>Create your <code>_site.yml</code> file by going to File &gt; New
-File &gt; Text file. Copy the content below, and save the file as
-<code>_site.yml</code> in your project’s home folder.</p>
-<p>We now have a navigation bar on top of the website that is
-interactive. <img src="Images/Interactive%20navigation%20bar.jpg" /></p>
-<p>On the navigation bar, there is an <em><code>About</code></em> link.
-We should create an Rmd.file for the <em>About</em> interactive link on
-the navigation bar, and save this <code>about.Rmd</code> file under the
-same directory.</p>
-<p>Instead of pasting the entire html address of the <code>about</code>
-page (ie. “<a
-href="file:///C:/Users/Chu%20Chu/Desktop/R/iCloud/Making%20Websites/about.html"
-class="uri">file:///C:/Users/Chu%20Chu/Desktop/R/iCloud/Making%20Websites/about.html</a>”)
-in the <code>[](here)</code>, we can substitute that with the local
-<code>about.html</code> that is in our directory folder. See how it
-works below:</p>
-<p>Now the <a href="about.html">About</a> interactive button is active
-and will lead us to the <em>About</em> page we created!</p>
-<p>We can also create extra pages and provide a link to direct people to
-that page. Here is an example of the <a href="Extra_page.html">extra
-page</a>.</p>
-<p>One benefit of using RStudio for making a website is that even if we
-quit RStudio and open it up again, we don’t have to knit every single
-html file that we created for this website. We can rebuild the website
-by clicking the <code>Build Website</code> on the top right hand panel
-next to the <code>Git</code>. <img
-src="Images/Rebuild%20website.jpg" /></p>
-</div>
-<div id="playing-with-icons" class="section level3">
-<h3>Playing with icons</h3>
-<p>We can change the icons (ie. the envelope icon) on the navigation bar
-into something else, and we can choose the icons from this <a
-href="https://fontawesome.com/icons">fontawesome</a> website.<br />
-Let’s say we would like to change the envelope icon into keyboard
-icon.<br />
-Step 1: go to <a href="https://fontawesome.com/icons">fontawesome</a>
-website and search for the keyboard icon.<br />
-Step 2: copy the code snippet for the icon selected. In this case, the
-keyboard icon code snippet is <strong>fa-solid
-fa-keyboard</strong>.<br />
-Step 3: Go to the <code>_site.yml</code> file and change the input for
-icon. Save the file.</p>
-<p><img src="Images/change%20icon.jpg" /></p>
-<p>Done. Now let’s knit to see if the envelope icon has become a
-keyboard icon. It works!</p>
-</div>
+<div id="about-this-site" class="section level3">
+<h3>About this site</h3>
+<p>This is a website where I use to practice making a website. This is
+part of the P8105 Data Science course at Columbia University.</p>
 </div>
 
 

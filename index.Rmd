@@ -73,6 +73,8 @@ What if we want to have a drop down menu like the one on the P8105 website?
 > Check out the [P8105 github](https://github.com/P8105/p8105.github.io) and see how Jeff did to create his P8105 website, specifically the `_site.yml`. 
 
 
+### Plotly & Dashboards
 
+I made two other interactive pages that talk about [plotly]() and [Dashboard]()!
 
 

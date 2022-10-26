@@ -75,6 +75,9 @@ What if we want to have a drop down menu like the one on the P8105 website?
 
 ### Plotly & Dashboards
 
-I made two other interactive pages that talk about [plotly]() and [Dashboard]()!
+I made two other interactive pages that talk about [plotly](Plotly.html) and [Dashboard](Dashboard.html)!
+
+
+
 
 

@@ -84,4 +84,17 @@ There are two ways to fix this issue:
 2. In console, type `rmarkdown::render("Dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")` 
 
 
+## Extra Resources for `plotly`
+
+* [Cheatsheet](https://images.plot.ly/plotly-documentation/images/r_cheat_sheet.pdf)                                                                                                           
+* [Plotly graphing library](https://plotly.com/r/)
+
+
+## Extra Resources for `flexdashboard`
+
+* [Dashboard basics](https://pkgs.rstudio.com/flexdashboard/articles/flexdashboard.html)                                                                                                    
+* [Layouts](https://pkgs.rstudio.com/flexdashboard/articles/layouts.html)                                                                                          
+
+
+
 

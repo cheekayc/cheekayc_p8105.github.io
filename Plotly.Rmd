@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-# Load packages and data
+### Load packages and data
 
 ```{r library, message = FALSE}
 library(tidyverse)
@@ -31,7 +31,7 @@ nyc_airbnb =
     price %in% 100:500)
 ```
 
-Plotly allows us to interact with the plots!
+### Plotly allows us to interact with the plots!
 
 ```{r scatterplot}
 nyc_airbnb %>% 
@@ -48,8 +48,7 @@ nyc_airbnb %>%
   mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
   plot_ly(
     y = ~price, color = ~neighbourhood,
-    type = "box"
-  )
+    type = "box")
 ```
 
 ```{r bar plot, warning = FALSE}
@@ -64,7 +63,7 @@ nyc_airbnb %>%
 
 ## Not recommend doing `ggplotly`
 
-```{r}
+```{r ggplotly}
 airbnb_scatter =
   nyc_airbnb %>% 
   ggplot(aes(x = lat, y = long, color = price)) +
@@ -76,7 +75,7 @@ ggplotly(airbnb_scatter)
 
 ## Create a dashboard
 
-Create a new Rmd > From template > Flex Dashboard
+Create a new Rmd file > From template > Flex Dashboard
 
 If we save the `Dashboard.Rmd` file together with the Rproj, it will render the dashboard as a regular markdown document, but doesn't treat it as a dashboard.
 
